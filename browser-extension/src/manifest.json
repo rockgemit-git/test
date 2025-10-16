@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Requirement Helper",
+  "version": "0.1.0",
+  "description": "Capture requirements and highlight current browser context for quick iteration.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Requirement Helper"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "tabs"]
+}

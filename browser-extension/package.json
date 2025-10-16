@@ -1,0 +1,13 @@
+{
+  "name": "browser-extension-starter",
+  "version": "0.1.0",
+  "description": "Minimal Chrome extension scaffold for requirement-first development.",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && node scripts/build.js"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  }
+}

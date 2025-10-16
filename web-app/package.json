@@ -1,0 +1,15 @@
+{
+  "name": "web-app-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Vanilla Vite starter for web application prototyping.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.10"
+  }
+}
