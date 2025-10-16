@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Requirement Helper</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Requirement Helper</h1>
+      <p class="subtitle">Capture quick notes about the page you are viewing.</p>
+    </header>
+
+    <main>
+      <section>
+        <label for="userStory">User story</label>
+        <textarea id="userStory" placeholder="As a..., I want..., so that..."></textarea>
+      </section>
+
+      <section>
+        <label for="acceptanceCriteria">Acceptance criteria</label>
+        <textarea
+          id="acceptanceCriteria"
+          placeholder="Given...
+When...
+Then..."
+        ></textarea>
+      </section>
+
+      <section class="page-context">
+        <span class="label">Current URL</span>
+        <span id="currentUrl" class="value">Loading...</span>
+      </section>
+
+      <button id="saveButton" type="button">Save Notes</button>
+      <p id="status" role="status"></p>
+    </main>
+
+    <script src="popup.js" type="module"></script>
+  </body>
+</html>
